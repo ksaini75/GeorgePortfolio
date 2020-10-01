@@ -1,0 +1,69 @@
+.homepage{
+   
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 35px;
+  
+
+    .options {
+
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+  
+      .option {
+        padding: 10px 40px;
+        text-decoration: none;
+        color: black;
+      }
+
+      .nav-logo{
+          padding: 100px;
+          font-weight: bold;
+      }
+      
+      
+    }
+}  
+
+.hr-bar{
+        
+  color: rgba(211, 211, 211, 0.442)!important;
+  background-color: rgba(211, 211, 211, 0.442) !important;
+  height:  .5px;
+  border-color : rgba(211, 211, 211, 0.442) !important;
+  width: 80rem !important;
+
+}
+
+.title-home{
+  margin-top: 9rem;
+  font-size:65px;
+  // position: absolute;
+  position: absolute;
+
+  text-align: center;
+  width: 100%;
+  
+}
+
+.home-container{
+  margin-top:12rem;
+  background-color: lightgray !important;
+  padding: 200px;
+  margin-bottom: 10rem;
+
+}
+.home-project{
+  color:whitesmoke;
+  margin-top: 5rem; 
+  text-align: left;
+
+  
+}
+
