@@ -36,7 +36,6 @@ LINKEDIN
       </Jumbotron>
     </div>
     </div>
-   
   
 )
 
