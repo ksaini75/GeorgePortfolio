@@ -25,8 +25,6 @@ LINKEDIN
         </div>
     </div>
     <hr className='hr-bar'/>
-
-
     <h1 className='title-home'><em>GEORGE SAMUELS II</em></h1>
     <div>
       <Jumbotron className='home-container'fluid>
