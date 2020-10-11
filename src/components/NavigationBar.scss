@@ -1,0 +1,36 @@
+
+@media only screen and (max-width:768px) {
+
+   
+  
+
+}
+
+
+$link-color: rgba(0,0,0,1) !important;
+$hover-color: rgb(105,105,105) !important;
+// $link-color:rgb(255, 255, 255,1) !important;
+
+.nav-link{
+    text-decoration: none !important;
+    color: $link-color;
+
+
+  
+    
+}
+
+.nav-link:hover{
+    color: $hover-color;}
+
+    .logo-nav{
+
+        // color: lightgray;
+        // -webkit-text-stroke-color: #003366 !important;
+        // -webkit-text-stroke-width: 1px;
+        color:black;
+        position: relative;
+        font-weight:bold;
+    
+        font-size: 25px;
+    }

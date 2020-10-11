@@ -1,16 +1,3 @@
-.about-container{
-   
-    // padding: 160px;
-
-   
-    // margin: 0 auto;
-    // background-color: lightgray !important;
-
-
-  
-
-}
-
 
 
 .about-title{
@@ -18,19 +5,33 @@
     // position: absolute;
     // margin-bottom: 0px;
     text-align:left;
-    margin-left: 10rem;
-    margin-top: 15rem;
-    color: black;
-    background-color: lightgray;
-    width: 250px;
+    margin-left: 5rem;
+    margin-top: 100px !important;
+    background-color: #D2F1E4;
+ 
+    // color: black;
+    // background-color: lightgray;
+    color: #22223B;
+    font-weight: bold;
+    // -webkit-text-stroke-color: #003366 !important;
+    // -webkit-text-stroke-width: 1px;
+
+    width: 250px !important;
 }
 
 .about-text{
-    color:black;
+    color:#5B79A8;
     font-weight: bold;
-    padding: 100px;
-    margin-top:-5rem;
+    padding: 50px;
+ 
+
+    border: 1px solid black;
+ 
+  
     
 
 }
 
+.about-box{
+    box-shadow: 10px 15px 10px -10px #5B79A8;
+}

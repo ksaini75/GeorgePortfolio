@@ -1,35 +1,10 @@
-.homepage{
-   
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-    margin-top: 35px;
-  
 
-    .options {
+html,body
+{
 
-      width: 50%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      margin: 0 auto;
-  
-      .option {
-        padding: 10px 40px;
-        text-decoration: none;
-        color: black;
-      }
+    overflow-x: hidden; 
+}
 
-      .nav-logo{
-          padding: 100px;
-          font-weight: bold;
-      }
-      
-      
-    }
-}  
 
 .hr-bar{
         
@@ -43,27 +18,31 @@
 
 .title-home{
   margin-top: 9rem;
-  font-size:65px;
+  font-size:60px;
   // position: absolute;
   position: absolute;
 
   text-align: center;
+  
   width: 100%;
+  color: black;
+  // color: lightgray;
+  // -webkit-text-stroke-color: #003366 !important;
+  // -webkit-text-stroke-width: 1px;
   
 }
 
 .home-container{
   margin-top:12rem;
-  background-color: lightgray !important;
-  padding: 200px;
-  margin-bottom: 10rem;
+  // background-color: lightgray !important;
+  background-color: rgba($color: #BCDDF2, $alpha: 1.0) !important;
+
+
 
 }
 .home-project{
-  color:whitesmoke;
+  color:#5B79A8;
   margin-top: 5rem; 
   text-align: left;
-
-  
 }
 
