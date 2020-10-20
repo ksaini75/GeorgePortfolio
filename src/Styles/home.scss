@@ -1,4 +1,20 @@
 
+
+
+@media all and (max-width:800px) {
+
+   
+  .hr-bar{
+        
+    color: rgba(211, 211, 211, 0.442)!important;
+    background-color: rgba(211, 211, 211, 0.442) !important;
+    height:  .5px;
+    border-color : rgba(211, 211, 211, 0.442) !important;
+    width: 20rem !important;
+  
+  }
+
+}
 html,body
 {
 
@@ -12,7 +28,7 @@ html,body
   background-color: rgba(211, 211, 211, 0.442) !important;
   height:  .5px;
   border-color : rgba(211, 211, 211, 0.442) !important;
-  width: 80rem !important;
+  width: 80rem ;
 
 }
 
@@ -39,10 +55,18 @@ html,body
 
 
 
+
 }
-.home-project{
-  color:#5B79A8;
-  margin-top: 5rem; 
-  text-align: left;
+// .home-project{
+//   color:#5B79A8;
+//   margin-top: 5rem; 
+//   text-align: left;
+// }
+
+.jumbotron{
+  padding: 0rem 4rem !important;
 }
 
+.home-image{
+  margin-top:2rem;
+}

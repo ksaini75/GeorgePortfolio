@@ -11,6 +11,9 @@ import AboutPage from './about-page';
 import ProjectPage from './projects-page';
 import Footer from './footer';
 
+import george from '../Assets/Images/george-picture-2.png';
+import ContactPage from './contact-page';
+
 
 const HomePage = () => (
     <div>
@@ -18,16 +21,18 @@ const HomePage = () => (
     <hr className='hr-bar'/>
     <h1 className='title-home'><em>GEORGE SAMUELS II</em></h1>
     <div>
-      <Jumbotron className='home-container'fluid >
+      <Jumbotron className='home-container' fluid>
         <Container fluid>
-          <h1 className="display-3">IMAGE</h1>
+        <img className='home-image' src={george}/>
+ 
          
         </Container>
-        <h4 className='home-project'>View Projects</h4>
+        {/* <h4 className='home-project'>View Projects</h4> */}
       </Jumbotron>
       <AboutPage/>
       <ProjectPage/>
       <TimelineExperience/>
+      <ContactPage/>
       <Footer/>
     </div>
   
