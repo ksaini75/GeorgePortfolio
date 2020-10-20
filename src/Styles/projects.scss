@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:950px) {
    
     .project-card-div{
         display: block !important;
@@ -36,6 +36,8 @@
 .project{
     margin-top: 10rem !important;
    
+    // background-color: #5B79A8;
+
 }
 
 .pb3-ns {
@@ -48,3 +50,19 @@
     color:white;
 }
 
+
+article{
+    display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.project-image{ height: 15rem;}
+
+.project-card-title{
+    color: #22223B;
+}
+
+a:hover {
+    color:#22223B !important;
+    text-decoration:none !important;
+}

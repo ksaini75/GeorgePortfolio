@@ -16,7 +16,7 @@ const AboutPage = () => (
 
     <Container >
 
-    <h1 className='about-title'> <em>About Me</em></h1>
+    <h1 className='about-title'><em>About Me</em></h1>
 
       <div className='about-box'>
       <p className='about-text'>
