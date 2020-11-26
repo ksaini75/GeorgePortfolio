@@ -7,7 +7,7 @@ import '../Styles/contact.scss';
 
 const ContactPage = () => (
 
-<div className='contact-box'>
+<div className='contact-box' id="contact">
 
 
     <Container className='contact-div'>

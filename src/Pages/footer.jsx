@@ -22,7 +22,7 @@ class Footer extends Component{
         <div className=" col-md-4 text-center">
             <div className="row">
             <div className="col-md-8">
-             <p><a className="icon-color"  >
+             <p><a href ="https://www.linkedin.com/in/george-samuels-ii/" className="icon-color" >
                
                </a><br/>Resume
             </p>

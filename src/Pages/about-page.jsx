@@ -14,11 +14,11 @@ const AboutPage = () => (
 
 
 
-    <Container >
+    <Container id="about">
 
     <h1 className='about-title'><em>About Me</em></h1>
 
-      <div className='about-box'>
+      <div className='about-box' >
       <p className='about-text'>
       George Samuels II is an Alumni of Pace University on the Westchester campus. 
       He recently graduated from Seidenberg School of Computer Science, obtaining a MS in Computer Science. 

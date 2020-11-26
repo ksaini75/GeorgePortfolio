@@ -23,7 +23,7 @@ const HomePage = () => (
     <div>
       <Jumbotron className='home-container' fluid>
         <Container fluid>
-        <img className='home-image' src={george}/>
+        <img className='home-image' src={george} alt="professional"/>
  
          
         </Container>
